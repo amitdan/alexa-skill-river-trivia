@@ -1,0 +1,392 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "river trivia",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "please cancel",
+                        "cancel please",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help please",
+                        "please help",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop please",
+                        "please stop",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "start please",
+                        "start again please",
+                        "start"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "do start quiz",
+                        "please quiz",
+                        "quiz please",
+                        "please start quiz",
+                        "start quiz please",
+                        "start quiz",
+                        "quiz",
+                        "a quiz",
+                        "for a quiz",
+                        "and quiz me",
+                        "and start a quiz",
+                        "start a quiz game",
+                        "start a quiz"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "RiverName",
+                            "type": "RIVER_NAME"
+                        },
+                        {
+                            "name": "RankBasedOnLengthInKilometers",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "OriginatesFrom",
+                            "type": "AMAZON.Region"
+                        },
+                        {
+                            "name": "EndsIn",
+                            "type": "AMAZON.Region"
+                        },
+                        {
+                            "name": "LengthInMiles",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        },
+                        {
+                            "name": "BenefittedCountriesOrStates",
+                            "type": "AMAZON.City"
+                        }
+                    ],
+                    "samples": [
+                        "What is the length of {RiverName}",
+                        "Which is {RankBasedOnLengthInKilometers} th river based on length",
+                        "{RiverName} information",
+                        "what do you know about {RiverName}",
+                        "tell me about {RiverName}",
+                        "{BenefittedCountriesOrStates}",
+                        "{EndsIn}",
+                        "{OriginatesFrom}",
+                        "{RankBasedOnLengthInKilometers}",
+                        "{LengthInMiles}",
+                        "{RiverName}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "RIVER_NAME",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Tapee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tapu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kaveru"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kaveriu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kaveree"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kaverii"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mahanaddi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mahanadii"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yamunna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yamina"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yamunaa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishnaaa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishnna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishnaa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Narmda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Narmuda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Narmuada"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Narmadda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Narmadaa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Godaavari"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Godavrari"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Godavarri"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Godavarii"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ganngaa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gangga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gangaa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brahmiputra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brahmaputraa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brahmputra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brahmaputr"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Inndus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Induus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Induss"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "taapi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tapii"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tapi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kaveri"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mahanadi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yamuna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Narmada"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Godavari"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brahmaputra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Indus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ganga"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

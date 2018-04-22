@@ -1,0 +1,18 @@
+AnswerIntent tell me about ganga
+AnswerIntent tapi information
+AnswerIntent krishna
+AnswerIntent What is the length of tapi ?
+
+QuizIntent please quiz
+QuizIntent quiz please
+QuizIntent please start quiz
+QuizIntent start quiz please
+QuizIntent start quiz
+QuizIntent quiz
+QuizIntent a quiz
+QuizIntent for a quiz
+QuizIntent and quiz me
+QuizIntent and start a quiz
+QuizIntent start a quiz game
+QuizIntent start a quiz
+QuizIntent do start quiz
